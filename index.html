@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
+    <title>Florist Eternals | Arreglos Florales</title>
     <link rel="stylesheet" href="style/estilos.css">
 </head>
 <body>
+    <!-- SECCIÓN 1: CABECERA Y NAVEGACIÓN -->
     <header>
         <nav>
             <div class="logo">
-            <span style="color: black;"> Florist</span>Eternals 
+             <span>Florist</span>Eternals 
             </div>
             <ul class="nav-links">
                <li><a href="index.html">Inicio</a></li>
@@ -21,51 +22,73 @@
         </nav>
     </header>
     <main>
-        <selection id="hero">
-            <h1>FLORES PARA MOMENTOS INOLVIDABLES PARA TI</h1>
-        </selection>
-
-        <br>
-
+         <!-- SECCIÓN 2: PORTADA PRINCIPAL -->
+        <section id="hero" class="hero">
+            <div>
+                <h1>FLORES PARA MOMENTOS INOLVIDABLES PARA TI</h1>
+                <p>Compartimos la magia contigo en cada evento especial</p>
+            </div>
+        </section>
+        <!-- SECCIÓN 3: ACERCA DE NUESTRO NEGOCIO -->
+        <!--contenedor-->
         <section class="negocio">
             <!-- Imagen de fondo o lateral -->
             <div class="negocio-imagen">
                 <img src="img/negocio.jpg" alt="Arreglo con flores y cervezas">
             </div>
-
             <!-- Caja de texto flotante -->
             <div class="negocio-contenido">
-                <span class="negocio-titulo">ACERCA DE</span>
+                <span class="negocio-titulo">Acerca de nosotros</span>
                 <h2>Realizamos arreglos con flores eternas 🌷 🌻 dulces 🍬 🍭 y más 🍾 🍺 para cualquier evento social Matrimonio, bautizo, cumpleaños, etc... 🌟 Donde compartimos la magia contigo</h2>
             </div>
         </section>
-
+        <!-- SECCIÓN 4: ARREGLOS FLORALES CATALOGO-->
         <section id="Arreglos">
-            <h4>ARREGLOS</h4>
-            <h2>Para toda ocasión</h2>
+             <span class="etiqueta">ARREGLOS</span>
+             <h1 id="titulo-principal">Para toda ocasión</h1>
             <div class="Arreglos-grid">
                 <div class="Arreglos-card">
-                    <img src="img/flor1.jpg" alt="foto">
+                    <img src="img/flor1.jpg" alt="Ramo de flores amarillas eternas">
                     <h3>Flores Amarillas</h3>
                     <p class="descripcion"></p>
                 </div>
                 <div class="Arreglos-card">
-                    <img src="img/flors2.jpg" alt="foto">
+                    <img src="img/flors2.jpg" alt="Ramo de flores rojas eternas">
                     <h3>San Valentin</h3>
                     <p class="descripcion"></p>
                 </div>
                 <div class="Arreglos-card">
-                    <img src="img/flors3.jpg" alt="foto">
+                    <img src="img/flors3.jpg" alt="Ramo de flores blancas eternas">
                     <h3>Aniversario</h3>
                     <p class="descripcion"></p>
-                </div>
-                
+                </div> 
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; Florist Eternals</p>
+    <!--SECCIÓN 5: PIE DE PÁGINA-->
+    <footer class="pie-pagina">
+        <div class="pie-grid">
+            <div>
+                <h3>Florist Eternals</h3>
+                <p>Flores y detalles para momentos inolvidables</p>
+            </div>
+            <div>
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="arreglos.html">Arreglos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div><h3>Síguenos</h3>
+             <ul><li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+             </li><li><a href="https://www.instagram.com/florist.eternals?dlrf=M2gyaGdnMWs5ZzJq" target="_blank" rel="noopener noreferrer">Instagram</a>
+             </li><li><a href="https://www.tiktok.com/@florist_eternals?_r=1&_t=ZS-9AeKpozHYRs" target="_blank" rel="noopener noreferrer">TikTok</a></li></ul>
+            </div>
+            <div class="pie-inferior">
+                <p>&copy; Florist Eternals. Todos los derechos reservados.</p>
+            </div>
+        </div>    
     </footer>
-    
 </body>
 </html>
